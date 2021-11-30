@@ -1,3 +1,4 @@
+
 .navbar-brand {
     Font-Family: 'Raleway', Sans-Serif;
     Font-Size: 20px;
@@ -95,5 +96,61 @@
 }
 
 .header-socials .icons {
-    font-size: 18px;
+    font-size: 18px;  
+}
+
+.portfolio-header {
+    text-align: center;
+    font-family: 'Raleway', Sans-Serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+.aspectRatioBox {
+    padding-top: calc(2 / 3 * 100%);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .project1-text {
+      font-family: 'Raleway', Sans-Serif;
+  }
+
+  .project1-text a {
+      text-decoration: none;
+      font-weight:bolder;
+      letter-spacing: 1px;
+  }
+
+
+  .project-date {
+      font-size: 18px;
+  }
+
+  .project-subtext {
+      font-family: 'Open Sans', Sans-Serif;;
+  }
+
+  @media (max-width: 992px) {
+      .project-title {
+          padding-top: 10px;
+          margin: 0 !important;
+      }
+
+      .project-subtext {
+          text-align: center;
+      }
+
+      .project1-text {
+          text-align: center;
+      }
+  }
+
+
+.title-divider {
+    width: 150px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: auto;
+
 }
