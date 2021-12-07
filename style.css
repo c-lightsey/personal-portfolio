@@ -6,6 +6,11 @@
     text-shadow: 0px 2px 3px #000000;
 }
 
+.navbar {
+    background-color: #3a506d;
+    max-height: 40px;
+}
+
 .navbar-nav .nav-item {
     Font-Family: 'Raleway', Sans-Serif;
     Font-Size: 18px;
@@ -17,7 +22,7 @@
 
 
 .navbar-dark .navbar-toggler {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .navbar-toggler:focus {
@@ -25,14 +30,8 @@
 }
 
 @media (max-width: 1100px) {
-    .navbar-dark .navbar-nav .nav-link {
-        color: black;
-    }
+   
 
-    .navbar-dark .navbar-brand {
-        color: black;
-        text-shadow: none;
-    }
 
     .navbar-toggler {
         border: none;
@@ -47,7 +46,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    min-height: 500px;
+    min-height: 550px;
 }
 
 .header-text {
@@ -89,6 +88,10 @@
         text-align: right;
         padding: 2px;
     }
+
+    .navbar .container-fluid {
+        margin-top: -8px;
+    }
 }
 
 .header-socials {
@@ -112,11 +115,15 @@
     background-position: center;
   }
 
-  .project1-text {
+.project-wrapper {
+    padding-top: 20px;
+}
+
+  .project1-text, .project2-text {
       font-family: 'Raleway', Sans-Serif;
   }
 
-  .project1-text a {
+  .project1-text a, .project2-text a {
       text-decoration: none;
       font-weight:bolder;
       letter-spacing: 1px;
@@ -141,9 +148,23 @@
           text-align: center;
       }
 
-      .project1-text {
+      .project1-text, .project2-text {
           text-align: center;
       }
+
+      .project2-text {
+          order: 2;
+      }
+
+      .project2-image {
+          order: 1;
+      }
+  }
+
+  @media (min-width: 992px) {
+.project2-text .project-title, .project2-text .project-subtext {
+    text-align: end;
+}
   }
 
 
