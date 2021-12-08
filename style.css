@@ -92,6 +92,14 @@
     .navbar .container-fluid {
         margin-top: -8px;
     }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: black;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+        text-shadow: 0px 2px 2px #000000;
+    }
 }
 
 .header-socials {
@@ -159,11 +167,28 @@
       .project2-image {
           order: 1;
       }
+
+      .footer-text {
+          font-size: 14px;
+      }
+
+      .footer-wrapper {
+          max-width: 65%;
+      }
+
   }
 
   @media (min-width: 992px) {
 .project2-text .project-title, .project2-text .project-subtext {
     text-align: end;
+}
+
+.project-title:hover {
+    text-shadow: 0px 2px 1px #d4d4d4;
+}
+
+.footer-wrapper {
+    max-width: 45%;
 }
   }
 
@@ -174,4 +199,33 @@
     border-bottom: 1px solid black;
     margin: auto;
 
+}
+
+.about {
+    background-color: #3a506d;
+}
+
+.footer-header {
+    font-family: 'Raleway', Sans-Serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+.footer-wrapper {
+
+    margin: auto;
+}
+
+.footer-image {
+    text-align: center;
+}
+
+.footer-text {
+    
+    text-align: center;
+}
+
+.about p {
+    font-family: 'Open Sans', Sans-Serif;
+    
 }
